@@ -9,7 +9,7 @@ __________________*/
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 /* _______________
 
 COMMON
@@ -27,6 +27,21 @@ img {
     display: block;
 }
 
+body {
+    position: relative;
+}
+
+.big {
+    width: 80%;
+    height: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: fit-content;
+}
+
 /* _______________
 
 HEADER
@@ -37,16 +52,22 @@ header {
     color: white;
     background-color: #ff6900;
     font-size: 20px;
+    height: 100px;
     display: flex;
     align-items: center;
-}
-
-header ul ul {
-    list-style-type: none;
-    display: flex;
     justify-content: center;
 }
 
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo {
+    height: 100%;
+}
 /* _______________
 
 MAIN
