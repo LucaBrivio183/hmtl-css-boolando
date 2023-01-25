@@ -38,6 +38,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
 }
 
 /* _______________
@@ -87,12 +88,8 @@ main {
 
 .product-box {
     margin: 50px 0;
-    padding: 10px;
-    display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
-    gap: 30px;
 }
 
 .product {
@@ -101,6 +98,7 @@ main {
 
 .product>* {
     width: 100%;
+    position: relative;
 }
 
 .product-details > * {
@@ -128,6 +126,49 @@ main {
     text-decoration: line-through;
     margin-left: 10px;
 }
+
+.favored-items  {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favored-items:hover {
+    color: red;
+}
+
+.tag-box {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.discount-tag {
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.eco-tag {
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+
 /* _______________
 
 FOOTER
