@@ -33,13 +33,11 @@ body {
 
 .big {
     width: 80%;
-    height: 60%;
     margin: 10px auto;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: fit-content;
 }
 
 /* _______________
@@ -68,12 +66,53 @@ header ul {
 header .logo {
     height: 100%;
 }
+
+header .box {
+    height: 60%;
+    min-width: fit-content;
+}
+
 /* _______________
 
 MAIN
 
 __________________*/
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product>* {
+    width: 100%;
+}
+
+.product-details > * {
+    line-height: 25px;
+}
+
+.product-details small {
+    font-size: 15px;
+}
+
+.product-details h2 {
+    font-size: 25px;
+}
+
+.product-details p {
+    font-size: 20px;
+}
+
+.product-details span:nth-child(1) {
+    color: red;
+    font-weight: bold;
+}
+
+.product-details p span:nth-child(2) {
+    text-decoration: line-through;
+    margin-left: 10px;
+}
 /* _______________
 
 FOOTER
