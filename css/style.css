@@ -16,11 +16,36 @@ COMMON
 
 __________________*/
 
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
 /* _______________
 
 HEADER
 
 __________________*/
+
+header {
+    color: white;
+    background-color: #ff6900;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header ul ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
 
 /* _______________
 
