@@ -33,12 +33,17 @@ body {
 
 .big {
     width: 80%;
-    margin: 10px auto;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
 
 /* _______________
@@ -62,9 +67,6 @@ header {
 }
 
 header ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
     gap: 20px;
 }
 
@@ -196,3 +198,25 @@ main {
 FOOTER
 
 __________________*/
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul {
+    gap: 15px;
+}
+
+footer h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
