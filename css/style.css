@@ -138,6 +138,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .favored-items:hover {
@@ -153,6 +154,7 @@ main {
     align-items: center;
     gap: 5px;
     flex-wrap: wrap;
+    z-index: 2;
 }
 
 .discount-tag {
@@ -167,6 +169,18 @@ main {
     font-size: 20px;
     color: white;
     padding: 5px;
+}
+
+.hidden-img {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.product-photo:hover .hidden-img{
+    display: inline;
+    z-index: 1;
 }
 
 /* _______________
