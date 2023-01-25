@@ -82,6 +82,21 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: 100px;
+}
+
+.product-box {
+    margin: 50px 0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.product {
+    flex-basis: calc(100% / 3 - 30px);
 }
 
 .product>* {
