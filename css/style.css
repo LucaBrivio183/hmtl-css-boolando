@@ -81,6 +81,10 @@ header .box {
     min-width: fit-content;
 }
 
+.shopping-links,.categories {
+    width: 20%;
+}
+
 /* _______________
 
 MAIN
