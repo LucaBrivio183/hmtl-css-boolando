@@ -19,7 +19,7 @@ __________________*/
 a {
     color: inherit;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.6vw;
 }
 
 img {
@@ -34,7 +34,6 @@ body {
 
 .big {
     width: 80%;
-    min-width: 1000px;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -57,8 +56,9 @@ __________________*/
 header {
     color: white;
     background-color: #ff6900;
-    font-size: 20px;
+    font-size: 1.6vw;
     height: 10vh;
+    min-height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,6 +75,7 @@ header ul {
 
 header .logo {
     width: 200px;
+    margin: 5px auto;
 }
 
 header .box {
@@ -115,19 +116,19 @@ main {
 }
 
 .product-details > * {
-    line-height: 25px;
+    line-height: 2vw;
 }
 
 .product-details small {
-    font-size: 15px;
+    font-size: 1vw;
 }
 
 .product-details h2 {
-    font-size: 25px;
+    font-size: 2vw;
 }
 
 .product-details p {
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .product-details span:nth-child(1) {
