@@ -96,8 +96,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 20vh;
-    padding: 10vh 0;
+    padding: 15vh 0 5vh;
 }
 
 .product-box {
@@ -157,6 +156,8 @@ main {
 
 .favored-items:hover {
     color: red;
+    font-size: xx-large;
+
 }
 
 .favored-items a:visited {
@@ -175,18 +176,18 @@ main {
     z-index: 2;
 }
 
-.discount-tag {
-    background-color: red;
+.tag {
     font-size: 20px;
     color: white;
     padding: 5px;
 }
 
-.eco-tag {
+.discount {
+    background-color: red;
+}
+
+.eco {
     background-color: green;
-    font-size: 20px;
-    color: white;
-    padding: 5px;
 }
 
 .hidden-img {
